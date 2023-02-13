@@ -1,0 +1,51 @@
+{
+   "name": "Jump-To-TabN",
+   "author": "sigoden@gmail.com",
+   "manifest_version": 2,
+   "version": "1.1.0",
+   "homepage_url": "https://github.com/sigoden/jump-to-tabs",
+   "description": "Jump to specific tab with shortcut keys",
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "commands": {
+      "jump-tab-1": {
+         "description": "Jump to tab 1"
+      },
+      "jump-tab-2": {
+         "description": "Jump to tab 2"
+      },
+      "jump-tab-3": {
+         "description": "Jump to tab 3"
+      },
+      "jump-tab-4": {
+         "description": "Jump to tab 4"
+      },
+      "jump-tab-5": {
+         "description": "Jump to tab 5"
+      },
+      "jump-tab-6": {
+         "description": "Jump to tab 6"
+      },
+      "jump-tab-7": {
+         "description": "Jump to tab 7"
+      },
+      "jump-tab-8": {
+         "description": "Jump to tab 8"
+      },
+      "jump-tab-9": {
+         "description": "Jump to last tab"
+      }
+   },
+   "icons": {
+      "128": "icons/128x128.png",
+      "16": "icons/16x16.png",
+      "48": "icons/48x48.png"
+   },
+   "minimum_chrome_version": "55.0.2872.0",
+   "offline_enabled": true,
+   "permissions": [ "tabs" ],
+   "short_name": "Jump-To-TabN",
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
